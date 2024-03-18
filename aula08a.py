@@ -11,3 +11,4 @@ print('A raiz quadrada de {} é igual a {:.2f}'.format(num, raiz))
 import random
 numero = random.randint(1, 10)
 print(numero)
+#xxxxx
