@@ -1,0 +1,24 @@
+n = int(input('Digite um numero: '))
+tab0 = n * 0
+tab1 = n * 1
+tab2 = n * 2
+tab3 = n * 3
+tab4 = n * 4
+tab5 = n * 5
+tab6 = n * 6
+tab7 = n * 7
+tab8 = n * 8
+tab9 = n * 9
+print('{:=^20}'.format('Tabuada'))
+print('{} x {} = {}'.format(n,0, tab0,))
+print('{} x {} = {}'.format(n, 1, tab1))
+print('{} x {} = {}'.format(n, 2, tab2))
+print('{} x {} = {}'.format(n, 3, tab3))
+print('{} x {} = {}'.format(n, 4, tab4))
+print('{} x {} = {}'.format(n, 5, tab5))
+print('{} x {} = {}'.format(n, 6, tab6))
+print('{} x {} ={}'.format(n, 7, tab7))
+print('{} x {} ={}'.format(n, 8, tab8))
+print('{} x {} ={}'.format(n, 9, tab9))
+print('{:=^20}'.format(''))
+
