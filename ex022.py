@@ -1,0 +1,6 @@
+num = input('Digite um numero de 0 a 9999: ')
+print('Analisando o numero {}...'.format(num))
+num_separado = num.split('.')
+print('Unidade: {}'.format(num_separado[4]))
+print('Dezena: {}'.format(num_separado[4:3]))
+print('Centena: {}'.format(num_separado[4:3:2]))

@@ -1,0 +1,10 @@
+nome = input('Digite seu nome completo: ')
+print(nome)
+print(nome.upper())
+print(nome.lower())
+sem_espacos = nome.replace(" ", "")
+print(len(nome))
+print(len(sem_espacos))
+nome2 = nome.split()
+primeiro_nome = nome2[0]
+print(len(primeiro_nome))
