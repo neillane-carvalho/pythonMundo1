@@ -1,0 +1,5 @@
+num1 = int(input('Digite um número: '))
+num2 = int(input('Digite outro número: '))
+num3 = int(input('Digite um terceiro numero: '))
+print('O maior numero digitado foi {}'.format(max(num1, num2, num3)))
+print('O menor numero digitado foi {}'.format(min(num1, num2, num3)))
